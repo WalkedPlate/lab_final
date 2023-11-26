@@ -43,7 +43,7 @@
                 <button class="submit">Buscar</button>
             </form>
         </div>
-        <%if(semestreMostrado.isHabilitado()){%>
+        <%if(semestreMostrado.isHabilitado() && !lista.isEmpty()){%>
         <div class="col-md-5 col-lg-4 ms-auto my-auto text-md-end">
             <a href="<%=request.getContextPath()%>/DocenteServlet?action=crear" class="btn btn-primary">
                 Registrar Evaluación</a>
