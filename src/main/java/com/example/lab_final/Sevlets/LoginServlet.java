@@ -60,6 +60,7 @@ public class LoginServlet extends HttpServlet {
                 if (usuarioDao.login(correoInput,passwordInput)){
 
                     Usuario usuario = usuarioDao.obtenerUsuarioPorCorreo(correoInput);
+                    usuarioDao.actualizarIngresos(usuario.getIdUsuario()); //cantidad de ingresos +1
 
                     HttpSession session = request.getSession();
                     session.setAttribute("usuario", usuario);

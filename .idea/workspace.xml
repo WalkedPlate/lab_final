@@ -10,14 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5ad650d-c8bb-48e3-9cf3-8bc2311d7935" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login_styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/includes/msg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/includes/navbarDecano.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab_final/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab_final/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Daos/CursoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Daos/CursoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Daos/CursoHasDocenteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Daos/CursoHasDocenteDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Daos/EvaluacionesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Daos/EvaluacionesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Daos/FacultadHasDecanoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Daos/FacultadHasDecanoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Daos/SemestreDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Daos/SemestreDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Daos/UsuarioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Daos/UsuarioDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Sevlets/DecanoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Sevlets/DecanoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Sevlets/DocenteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Sevlets/DocenteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Sevlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab_final/Sevlets/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/decano/editCursos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/decano/editCursos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/decano/editDocentes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/decano/editDocentes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/decano/listaCursos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/decano/listaCursos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/decano/listaDocentes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/decano/listaDocentes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/decano/newCursos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/decano/newCursos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/decano/newDocentes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/decano/newDocentes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/docente/editEvaluaciones.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/docente/editEvaluaciones.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/docente/listaEvaluaciones.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/docente/listaEvaluaciones.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/docente/newEvaluaciones.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/docente/newEvaluaciones.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/includes/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/includes/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Servlet" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -43,9 +58,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2YakP77oEht87UmDoQbVWJhm8FL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -54,23 +69,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/PC/Iweb/lab_final/src/main/webapp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PC/Iweb/lab_final/src/main/webapp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PC\Iweb\lab_final\src\main\webapp" />
@@ -124,7 +140,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700771053781</updated>
-      <workItem from="1700771054859" duration="16886000" />
+      <workItem from="1700771054859" duration="17607000" />
+      <workItem from="1700946126984" duration="35469000" />
     </task>
     <servers />
   </component>
